@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .mySwiper{
+        display: none;
+    }
+    #cover{
+        background-image: url('/images/Cafe-Backgrounds-Wallpapers_22-768x1024.jpg');
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav {
+        flex-direction: column;
+        height: 45%;
+        width: 100%;
+    }
+    .nav li a {
+        font-size: 30px;
+    }
+    .show-nav {
+        right: 0; 
+    }
+    #cover button{
+        left: 24%;
+        right: 24%;
+    }
+    .modalActive{
+        width: 70%;
+    }
+}

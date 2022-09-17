@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="shortcut icon" href="./images/steak_PNG1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/cover.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__nav">
+                <a href="#cover"><img src="/images/steak_PNG1.png" alt=""></a>
+                <a href="#cover"><h1>Claudia</h1></a>
+                <ul class="nav">
+                    <li class="nav__item"><a href="#cover">Slider</a></li>
+                    <li class="nav__item"><a href="#">Apply</a></li>
+                    <li class="nav__item"><a href="#">Accordion</a></li>
+                    <li class="nav__item"><a href="#">Categories</a></li>
+                    <li class="nav__item"><a href="#">Contacts</a></li>
+                </ul>
+
+                <div class="mobile-btn">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cover">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/The-Edge---Dining-Area.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/Canneli-2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/F-B---Firedoor-al-fresco-dining-area.jpg" alt=""></div>
+                </div>
+              </div>
+              <button class="cover__button">ЗАКАЗАТЬ ДОСТАВКУ</button>
+    </section>
+
+    <!-- фон модалки -->
+<div class="backdrop">
+    <div class="modal">
+        <div class="modalHeader">
+            <div class="modalCloseButton">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="modalContent"> 
+        </div>
+
+        
+
+    </div>
+</div>
+<!-- фон модалки -->
+<section id="menu">
+    <div class="container">
+        <div class="swiper mySecondSwiper">
+            <div class="swiper-wrapper menu">
+    
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+</section>
+    
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/burger.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/cover.js"></script>
+    <script src="./script/swiper.js "></script>
+</body>
+</html>
