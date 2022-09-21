@@ -11,13 +11,13 @@
     font-size: 18px;
     background-size: 100% 100%;
     height: calc((100% - 30px) /2) !important;
-    border-bottom-right-radius: 26px;
-    border-top-left-radius: 26px;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
     
 }
 #menu .swiper-pagination-bullet{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     opacity: 1;
     background-color: white;
 }
@@ -27,8 +27,12 @@
     column-gap: 10px;
 }
 #menu .swiper-pagination-bullet-active{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:#404089;
 }
 .swiper-text{
     color: white;
+}
+#menu h2{
+    padding: 25px 0 35px;
+    text-align: center;
 }

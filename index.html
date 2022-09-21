@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Claudia</title>
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -15,20 +15,26 @@
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/cover.css">
     <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/accordion.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="stylesheet" href="./css/telegram.css">
+    <link rel="stylesheet" href="./css/maps.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header__nav">
-                <a href="#cover"><img src="/images/steak_PNG1.png" alt=""></a>
+                <a href="#cover"><img src="./images/steak_PNG1.png" alt=""></a>
                 <a href="#cover"><h1>Claudia</h1></a>
                 <ul class="nav">
-                    <li class="nav__item"><a href="#cover">Slider</a></li>
-                    <li class="nav__item"><a href="#">Apply</a></li>
-                    <li class="nav__item"><a href="#">Accordion</a></li>
-                    <li class="nav__item"><a href="#">Categories</a></li>
-                    <li class="nav__item"><a href="#">Contacts</a></li>
+                    <li class="nav__item"><a href="#cover">Главная</a></li>
+                    <li class="nav__item"><a href="#menu">Меню</a></li>
+                    <li class="nav__item"><a href="#accordion">Вопросы</a></li>
+                    <li class="nav__item"><a href="#telegram">Сотрудничество</a></li>
+                    <li class="nav__item"><a href="#categories">Ассортимент</a></li>
+                    <li class="nav__item"><a href="#maps">Адрес</a></li>
                 </ul>
 
                 <div class="mobile-btn">
@@ -45,7 +51,8 @@
                   <div class="swiper-slide"><img src="./images/Canneli-2.jpg" alt=""></div>
                   <div class="swiper-slide"><img src="./images/F-B---Firedoor-al-fresco-dining-area.jpg" alt=""></div>
                 </div>
-              </div>
+            </div>
+            
               <button class="cover__button">ЗАКАЗАТЬ ДОСТАВКУ</button>
     </section>
 
@@ -69,6 +76,7 @@
 <!-- фон модалки -->
 <section id="menu">
     <div class="container">
+        <h2>Меню</h2>
         <div class="swiper mySecondSwiper">
             <div class="swiper-wrapper menu">
     
@@ -77,7 +85,145 @@
           </div>
     </div>
 </section>
+
+<section id="accordion">
+    <div class="container">
+        <div class="row">
+            
+                <dib class="accordion accordion__box">
+                    <h3>Вопросы и ответы</h3>
+                    <div class="accordion__wrap">
+                        <div class="accordion__name">
+                            <p>Что вы можете порекомендовать?</p>
+                            <img class="plus" src="./images/icons8-pizza-67.png" alt="plus">
+                        </div>
+                        <div class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nesciunt, repellendus corrupti facilis perspiciatis soluta quibusdam corporis eveniet sapiente velit voluptate veniam at sed debitis a ipsa, temporibus numquam vero possimus, quaerat veritatis reprehenderit quos inventore? Labore, quidem illum, aliquam voluptatem autem explicabo aperiam animi vitae laboriosam sit atque nostrum?</p>
+                        </div>
+                    </div>
     
+                    <div class="accordion__wrap">
+                        <div class="accordion__name">
+                            <p>Нужно ли бронировать столики или можно приходить без брони и депозита?</p>
+                            <img class="plus" src="./images/icons8-pizza-67.png" alt="plus">
+                        </div>
+                        <div class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nesciunt, repellendus corrupti facilis perspiciatis soluta quibusdam corporis eveniet sapiente velit voluptate veniam at sed debitis a ipsa, temporibus numquam vero possimus, quaerat veritatis reprehenderit quos inventore? Labore, quidem illum, aliquam voluptatem autem explicabo aperiam animi vitae laboriosam sit atque nostrum?</p>
+                        </div>
+                    </div>
+    
+                    <div class="accordion__wrap">
+                        <div class="accordion__name">
+                            <p>Есть ли в этом ресторане возможность потанцевать вечером?</p>
+                            <img class="plus" src="./images/icons8-pizza-67.png" alt="plus">
+                        </div>
+                        <div class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nesciunt, repellendus corrupti facilis perspiciatis soluta quibusdam corporis eveniet sapiente velit voluptate veniam at sed debitis a ipsa, temporibus numquam vero possimus, quaerat veritatis reprehenderit quos inventore? Labore, quidem illum, aliquam voluptatem autem explicabo aperiam animi vitae laboriosam sit atque nostrum?</p>
+                        </div>
+                    </div>
+    
+                    <div class="accordion__wrap">
+                        <div class="accordion__name">
+                            <p>У вас есть доставка?</p>
+                            <img class="plus" src="./images/icons8-pizza-67.png" alt="plus">
+                        </div>
+                        <div class="accordion__content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nesciunt, repellendus corrupti facilis perspiciatis soluta quibusdam corporis eveniet sapiente velit voluptate veniam at sed debitis a ipsa, temporibus numquam vero possimus, quaerat veritatis reprehenderit quos inventore? Labore, quidem illum, aliquam voluptatem autem explicabo aperiam animi vitae laboriosam sit atque nostrum?</p>
+                        </div>
+                    </div>
+    
+    
+                </dib>
+        </div>
+    </div>
+</section>
+
+<section id="telegram">
+    <div class="container">
+        <h3>Сотрудничество</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="telegram__box1">
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="telegram__box2">
+                    <form id="fr__form">
+                        <h4>Заявка</h4>
+                    <input placeholder="company" type="text" id="inputCompany">
+                    <input placeholder="email" type="text" id="inputEmail">
+                    <input placeholder="number" type="number" id="inputNum">
+                    <button>ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="categories">
+    <div class="container">
+        <h2>Ассортимент</h2>
+        <div class="categories__choise">
+            <button class="btn all active">Все</button>
+            <button class="btn burger">Бургеры</button>
+            <button class="btn pizza">Пицца</button>
+            <button class="btn sushi">Суши</button>
+        </div>
+        <div class="row output">
+
+        </div>
+    </div>
+</section>
+
+<section id="maps">
+    <h3>Наш адрес</h3>
+    <div class="container maps__container">
+        <div id="YMapsID"></div>
+        <div class="maps__box">
+            <p>Адрес: г.Бишкек, ул.Раззакова 32</p>
+            <p>Тел: +996555000555</p>
+            <p>email: <a target="_blank" href="https://www.youtube.com/watch?v=waAlgFq9Xq8&list=RDwaAlgFq9Xq8&start_radio=1">helloworld@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>О нас:</h4>
+                    <ul class="footer__ul">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>Вакансии:</h4>
+                    <ul class="footer__ul">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>Социальные сети:</h4>
+                    <ul class="footer__ul social">
+                        <li><a target="_blank" href="https://www.facebook.com/"><img src="./images/icons8-facebook-24.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/"><img src="./images/icons8-instagram-24.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/"><img src="./images/icons8-youtube-24.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -87,5 +233,10 @@
     <script src="./script/modal.js"></script>
     <script src="./script/cover.js"></script>
     <script src="./script/swiper.js "></script>
+    <script src="./script/accordion.js"></script>
+    <script src="./script/telegram.js"></script>
+    <script src="./script/categories.js"></script>
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="./script/maps.js"></script>
 </body>
 </html>

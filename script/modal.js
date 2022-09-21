@@ -1,23 +1,4 @@
 const modalFunc = ()=>{
-    const button = document.querySelector('.cover__button')
-    const modalCloseButton =document.querySelector('.modalCloseButton')
-    const modal =document.querySelector('.modal')
-    const backdrop =document.querySelector('.backdrop')
-    button.addEventListener('click',()=>{
-        modal.classList.add('modalActive')
-        backdrop.classList.add('backdropActive')
-    })
-    const removeClasses =()=>{
-        modal.classList.remove('modalActive')
-        backdrop.classList.remove('backdropActive')
-    }
-    modalCloseButton.addEventListener('click',removeClasses)
-    backdrop.addEventListener('click',removeClasses)
-    modal.addEventListener('click',(e)=>{
-        e.stopPropagation()
-    })
-
-
 
     const items = {
         first:['Burger',20],

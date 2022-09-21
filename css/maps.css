@@ -1,0 +1,31 @@
+.maps__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.maps__box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#YMapsID{
+    width: 85%;
+    height: 400px;
+}
+#maps{
+    padding: 100px 0 100px;
+    text-align: center;
+    background-image: url('/images/oceanMain.jpg');
+    background-size: 100% 100%;
+}
+#maps h3{
+    padding-bottom: 40px;
+}
+#maps p, #maps a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+#maps p{
+    color: white;
+}

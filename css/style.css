@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* main */
 *{
     margin: 0;
@@ -16,8 +17,27 @@
     display: flex;
     row-gap: 30px;
 }
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33%;
+    padding: 0 15px;
+}
 h1{
     color: white;
+    font-size: 40px;
+}
+h2{
+font-size: 35px;
+}
+h3{
+font-size: 30px;
 }
 /* main */
 
