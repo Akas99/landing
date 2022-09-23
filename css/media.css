@@ -3,7 +3,7 @@
         display: none;
     }
     #cover{
-        background-image: url('./images/Cafe-Backgrounds-Wallpapers_22-768x1024.jpg');
+        background-image: url('../images/Cafe-Backgrounds-Wallpapers_22-768x1024.jpg');
         background-size: 100% 100%;
     }
     .col-6{
