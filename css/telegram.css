@@ -3,13 +3,13 @@
     padding: 100px 0;
 }
 .telegram__box1{
-    background-image: url('../images/kartina.jpg');
     width: 100%;
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border: 7px solid black;
     border-radius: 19px;
+    background-image: url('../images/kartinka.jpg');
 }
 #fr__form{
     display: flex;
