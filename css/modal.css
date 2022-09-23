@@ -36,7 +36,7 @@
 
 .modalActive{
     display: flex;
-    background-image:url('/images/1636376266_66-modnica-club-p-gradient-tsveta-morskoi-volni-72.png');
+    background-image:url('./images/1636376266_66-modnica-club-p-gradient-tsveta-morskoi-volni-72.png');
     background-size: cover;
     z-index: 2;
     

@@ -40,14 +40,12 @@ const applyTelega =()=>{
         }
         )
         }
-        form.addEventListener('click',()=>{
             
-            if(company.value.length>1 && num.value.length>8 && company.value.length<15 && num.value.length<15 && email.value.length>1 && email.value.length<15){
-                telegramFetch2()
-            }else{
-                alert('ошибка')
-            }
-        })
+        if(company.value.length>1 && num.value.length>8 && company.value.length<15 && num.value.length<15 && email.value.length>1 && email.value.length<15){
+            telegramFetch2()
+        }else{
+            alert('ошибка')
+        }
         
     })
 }

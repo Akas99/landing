@@ -12,20 +12,23 @@
 #YMapsID{
     width: 85%;
     height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 #maps{
     padding: 100px 0 100px;
     text-align: center;
-    background-image: url('/images/oceanMain.jpg');
+    background-color: rgb(255, 255, 240);;
     background-size: 100% 100%;
 }
 #maps h3{
     padding-bottom: 40px;
 }
 #maps p, #maps a{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
 #maps p{
-    color: white;
+    color: black;
 }

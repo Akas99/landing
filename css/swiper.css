@@ -4,6 +4,7 @@
 }
 #menu .swiper{
     height: 600px;
+    padding-bottom: 50px;
     /* background-color: aqua; */
 }
 #menu .swiper-slide{
@@ -19,7 +20,7 @@
     width: 20px;
     height: 20px;
     opacity: 1;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .swiper-pagination{
     display: flex;
@@ -27,7 +28,7 @@
     column-gap: 10px;
 }
 #menu .swiper-pagination-bullet-active{
-    background-color:#404089;
+    background-color:black;
 }
 .swiper-text{
     color: white;
